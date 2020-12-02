@@ -1,19 +1,16 @@
 {
-  "name": "react",
-  "version": "0.0.0",
+  "name": "presentaciones2",
+  "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "bulma": "^0.9.1",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "react-scripts": "latest"
+    "next": "10.0.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   }
 }
