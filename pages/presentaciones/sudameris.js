@@ -6,7 +6,7 @@ export default function Sudameris (){
             <div className="tile is-parent">
                 <article className="tile is-child notification is-success">
                 <div className="content">
-                    <p className="title">Presntacion Sudameris</p>
+                    <p className="title">Presentacion Sudameris</p>
                         <div className="content">
                         <p>
                             01-Hay que entrar a la pagina de <strong><a href ="https://ebankempresas.bancopatagonia.com.ar/desktop-webserver/sso" target="_blank">Patagonia:</a></strong><br/>

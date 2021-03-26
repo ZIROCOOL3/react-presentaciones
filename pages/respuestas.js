@@ -6,6 +6,10 @@ export default function Respuestas(){
     return(
         <div>
           <Menu/>
+          <section class="section">
+            <h1 class="title">Respuestas</h1>
+          </section>
+          
           <div class="buttons">
             
             <div className="box">
