@@ -26,8 +26,6 @@ export default function mastercard(){
                         <p>
                             07-luego presionamos los 3 puntitos y elegimos enviar.<br/>
                         </p>
-
-
                     </div>
                 </div>
                 </article>

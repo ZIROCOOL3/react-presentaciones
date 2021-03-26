@@ -15,16 +15,18 @@ export default function Presentaciones(){
 
           <div class="buttons">
             <div className="box">
+                <Link href='../presentaciones/banconacion'>
                 <button className="button is-primary">
                   <img src="/bna.ico"  className={styles.icon} />
                   Banco Nacion
                 </button>
-
-                <button className="button is-link">
-                <img src="/bancoChaco.ico"  className={styles.icon} />
-                  Banco del chaco
-                </button>
-                
+                </Link>
+                <Link href='../presentaciones/bancoChaco'>
+                  <button className="button is-link">
+                  <img src="/bancoChaco.ico"  className={styles.icon} />
+                    Banco del chaco
+                  </button>
+                </Link>
                 <Link href='../presentaciones/sudameris'>
                   <button className="button is-info">
                   <img src="/sudameris.ico" className={styles.icon} />
@@ -68,13 +70,13 @@ export default function Presentaciones(){
                   </button>
                 </Link>
 
-                <Link href='../respuestas/amex'>
+                <Link href='../presentaciones/amex'>
                   <button className="button is-primary">
                   <img src="/amex.ico" className={styles.icon} />
                     American Express
                   </button>
                 </Link>
-                <Link href='../respuestas/naranja'>
+                <Link href='../presentaciones/naranja'>
                   <button className="button is-link">
                   <img src="/naranja.ico" className={styles.icon} />
                     Naranaja
